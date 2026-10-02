@@ -96,7 +96,7 @@ export default function ChatBox() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1 className={styles.title}>Gemini Chat</h1>
+        <h1 className={styles.title}>AI Chat</h1>
         {messages.length > 0 && (
           <button onClick={clearChat} className={styles.clearBtn} aria-label="Clear chat">
             Clear
